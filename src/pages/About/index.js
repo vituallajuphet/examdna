@@ -1,3 +1,13 @@
-// export { default as Slider } from './Slider'
-export { default as Content } from './Content'
+import React from 'react'
+import Content from './Content';
 
+
+const About = (props) => {
+  return (
+    <>
+    <Content />
+    </>
+  )
+}
+
+export default About
